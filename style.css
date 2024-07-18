@@ -1,12 +1,19 @@
+h1 {
+    font-family: "Kalnia Glaze";
+    font-size: 30px;
+    margin: 0px;
+}
+h2 {
+    font-size: 40px;
+    color: lightcoral;
+    width: 650px;
+    height: 100px;
+    margin-left: 300px;
+}
 body {
-    background-color: rgb(195, 0, 255);
-  }
-  h1 {
-    color: aqua;
-  }
-  h3 {
-    color: lightgreen;
-  }
-  hr {
-    color: rgb(102, 255, 0)
-  }
+    background: linear-gradient(purple, aqua) no-repeat;
+    background-attachment: fixed;
+}
+.selfie {
+    margin-left: 1100px;
+}
