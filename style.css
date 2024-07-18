@@ -24,7 +24,11 @@ body {
 }
 a:hover {
     color: red;
-}li, a {
+}
+a:active {
+    color: blue;
+}
+li, a {
     justify-content: right;
     list-style: none;
 }
