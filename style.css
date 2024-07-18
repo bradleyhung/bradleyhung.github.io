@@ -14,6 +14,8 @@ body {
     background: linear-gradient(purple, aqua) no-repeat;
     background-attachment: fixed;
 }
-.selfie {
-    margin-left: 1100px;
+.container {
+    display: flex;
+    gap: 100px;
+    justify-content: center;
 }
