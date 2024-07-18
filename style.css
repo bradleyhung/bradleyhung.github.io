@@ -16,6 +16,9 @@ body {
 }
 .container {
     display: flex;
-    gap: 100px;
+    gap: 150px;
     justify-content: center;
+}
+.text-container {
+    text-align: center;
 }
