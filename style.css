@@ -8,7 +8,6 @@ h2 {
     color: lightcoral;
     width: 650px;
     height: 100px;
-    margin-left: 300px;
 }
 body {
     background: linear-gradient(purple, aqua) no-repeat;
@@ -18,7 +17,24 @@ body {
     display: flex;
     gap: 150px;
     justify-content: center;
+    margin-top: 200px;
 }
 .text-container {
     text-align: center;
+}
+a:hover {
+    color: red;
+}li, a {
+    justify-content: right;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:aqua;
+}
+.nav-items {
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    font-size: 28px;
 }
