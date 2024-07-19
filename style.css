@@ -16,7 +16,7 @@ body {
 }
 .container {
     display: flex;
-    gap: 150px;
+    gap: 280px;
     justify-content: center;
     margin-top: 200px;
 }
@@ -41,6 +41,7 @@ a {
 .nav-items {
     display: flex;
     justify-content: right;
+    margin-right: 30px;
     gap: 20px;
     font-size: 28px;
     text-shadow: 5px 5px 5px blue;
