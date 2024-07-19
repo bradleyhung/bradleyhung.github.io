@@ -21,6 +21,7 @@ body {
 }
 .text-container {
     text-align: center;
+    text-shadow: 5px 5px 5px red;
 }
 a:hover {
     color: red;
@@ -41,4 +42,5 @@ a {
     justify-content: right;
     gap: 20px;
     font-size: 28px;
+    text-shadow: 5px 5px 5px blue;
 }
