@@ -8,6 +8,7 @@ h2 {
     color: lightcoral;
     width: 650px;
     height: 100px;
+    transform: skew(-10deg, 0deg);
 }
 body {
     background: linear-gradient(purple, aqua) no-repeat;
@@ -43,4 +44,5 @@ a {
     gap: 20px;
     font-size: 28px;
     text-shadow: 5px 5px 5px blue;
+    transform: skew(-20deg, 0deg);
 }
