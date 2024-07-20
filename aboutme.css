@@ -1,12 +1,44 @@
 .header-container {
     text-align: center;
     font-size: 40px;
-    color: lightcoral;
-    width: 650px;
-    height: 100px;
+    color: purple;
     transform: matrix(1, 0, -.2, 1, 0, 0);
+    text-shadow: 3px -3px 10px aqua;
 }
 .intro-container {
-    text-align: center;
-    text-shadow: 5px 5px 5px red;
+    text-align: left;
+    text-shadow: 5px 5px 4px red;
+    color: red;
+    font-size: 30px;
+    transform: matrix(1, 0, -.2, 1, 0, 0);
+    width: 500px;
+}
+.nav-items {
+    display: flex;
+    justify-content: right;
+    margin-right: 30px;
+    gap: 20px;
+    font-size: 28px;
+    text-shadow: 5px 5px 5px blue;
+    transform: matrix(1, 0, -.4, 1, 0, 0);
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: blue;
+}
+li, a {
+    justify-content: right;
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color:aqua;
+}
+.container {
+    display: flex;
+    gap: 280px;
+    justify-content: center;
+    margin-top: 200px;
 }
