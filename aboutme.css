@@ -1,8 +1,12 @@
 .header-container {
-    /* font-size: 40px;
+    text-align: center;
+    font-size: 40px;
     color: lightcoral;
     width: 650px;
     height: 100px;
-    transform: matrix(1, 0, -.2, 1, 0, 0); */
-    width: 500px;
+    transform: matrix(1, 0, -.2, 1, 0, 0);
+}
+.intro-container {
+    text-align: center;
+    text-shadow: 5px 5px 5px red;
 }
