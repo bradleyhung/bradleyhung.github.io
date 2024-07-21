@@ -1,52 +1,67 @@
 .container {
     display: flex;
-    gap: 280px;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 10%;
 }
+
 .header-container {
     text-align: center;
-    font-size: 60px;
+    font-size: 3em;
     color: purple;
-    transform: matrix(1, 0, -.2, 1, 0, -120);
-    text-shadow: 3px -3px 10px pink;
+    text-shadow: 0.2em -0.2em 0.5em pink;
 }
+
 .intro-container {
     text-align: left;
-    text-shadow: 5px 5px 5px lightgreen;
+    text-shadow: 0.3em 0.3em 0.3em lightgreen;
     color: red;
-    font-size: 30px;
-    transform: matrix(1, 0, -.2, 1, 0, -140);
-    width: 780px;   
+    font-size: 1.5em;
+    width: 100%; 
+    max-width: 900px;
+    margin: auto;
 }
+
 .techskills-container {
-    text-shadow: 3px 3px 5px black;
+    text-shadow: 0.2em 0.2em 0.3em black;
     color: black;
-    font-size: 30px;
-    transform: matrix(1, 0, 0, 1, 0, -100);
+    font-size: 1.5em;
+    max-width: 900px;
+    margin: auto;
 }
+
 .nav-items {
     display: flex;
     justify-content: right;
-    margin-right: 30px;
-    gap: 20px;
-    font-size: 28px;
-    text-shadow: 5px 5px 5px blue;
-    transform: matrix(1, 0, -.4, 1, -50, 0);
+    margin-right: 2%;
+    gap: 1em;
+    font-size: 1.4em;
+    text-shadow: 0.3em 0.3em 0.3em blue;
     list-style: none;
 }
+
 a:hover {
     color: red;
 }
+
 a:active {
     color: blue;
 }
+
 a {
     text-decoration: none;
     color:purple;
 }
+
 @media screen and (max-width: 600px) {
     .container {
-        display: flex;
+        flex-direction: column;
+    }
+
+    .intro-container, .techskills-container {
+        font-size: 1em;
+    }
+
+    .nav-items {
+        font-size: 1em;
     }
 }
