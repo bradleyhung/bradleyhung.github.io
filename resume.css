@@ -1,0 +1,22 @@
+.nav-items {
+    display: flex;
+    justify-content: right;
+    margin-right: 2%;
+    gap: 1em;
+    font-size: 1.4em;
+    text-shadow: 0.3em 0.3em 0.3em blue;
+    list-style: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: blue;
+}
+
+a {
+    text-decoration: none;
+    color:purple;
+}
