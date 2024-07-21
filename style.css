@@ -1,14 +1,11 @@
 h1 {
     font-family: "Kalnia Glaze";
-    font-size: 30px;
-    margin: 0px;
+    font-size: 2em;
+    margin: 0;
 }
 h2 {
-    font-size: 40px;
+    font-size: 2.5em;
     color: lightcoral;
-    width: 650px;
-    height: 100px;
-    transform: matrix(1, 0, -.2, 1, 0, 0);
 }
 body {
     background: linear-gradient(purple, aqua) no-repeat;
@@ -16,13 +13,13 @@ body {
 }
 .container {
     display: flex;
-    gap: 280px;
+    gap: 2%;
     justify-content: center;
-    margin-top: 200px;
+    margin-top: 20vh;
 }
 .text-container {
     text-align: center;
-    text-shadow: 5px 5px 5px red;
+    text-shadow: 0.5em 0.5em 0.5em red;
 }
 a:hover {
     color: red;
@@ -41,9 +38,13 @@ a {
 .nav-items {
     display: flex;
     justify-content: right;
-    margin-right: 30px;
-    gap: 20px;
-    font-size: 28px;
-    text-shadow: 5px 5px 5px blue;
-    transform: matrix(1, 0, -.4, 1, 0, 0);
+    margin-right: 2vw;
+    gap: 2vw;
+    font-size: 2em; 
+    text-shadow: 0.5em 0.5em 0.5em blue; 
+}
+@media screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
 }
