@@ -19,12 +19,11 @@
     transform: matrix(1, 0, -.2, 1, 0, -140);
     width: 780px;   
 }
-.interest-container {
+.techskills-container {
     text-shadow: 3px 3px 5px black;
     color: black;
     font-size: 30px;
     transform: matrix(1, 0, 0, 1, 0, -100);
-
 }
 .nav-items {
     display: flex;
@@ -35,7 +34,6 @@
     text-shadow: 5px 5px 5px blue;
     transform: matrix(1, 0, -.4, 1, -50, 0);
     list-style: none;
-    justify-content: right;
 }
 a:hover {
     color: red;
@@ -46,4 +44,9 @@ a:active {
 a {
     text-decoration: none;
     color:purple;
+}
+@media screen and (max-width: 600px) {
+    .container {
+        display: flex;
+    }
 }
