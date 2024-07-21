@@ -1,17 +1,30 @@
+.container {
+    display: flex;
+    gap: 280px;
+    justify-content: center;
+    margin-top: 200px;
+}
 .header-container {
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     color: purple;
-    transform: matrix(1, 0, -.2, 1, 0, 0);
-    text-shadow: 3px -3px 10px aqua;
+    transform: matrix(1, 0, -.2, 1, 0, -120);
+    text-shadow: 3px -3px 10px pink;
 }
 .intro-container {
     text-align: left;
-    text-shadow: 5px 5px 4px red;
+    text-shadow: 5px 5px 5px lightgreen;
     color: red;
     font-size: 30px;
-    transform: matrix(1, 0, -.2, 1, 0, 0);
-    width: 500px;
+    transform: matrix(1, 0, -.2, 1, 0, -140);
+    width: 780px;   
+}
+.interest-container {
+    text-shadow: 3px 3px 5px black;
+    color: black;
+    font-size: 30px;
+    transform: matrix(1, 0, 0, 1, 0, -100);
+
 }
 .nav-items {
     display: flex;
@@ -20,7 +33,9 @@
     gap: 20px;
     font-size: 28px;
     text-shadow: 5px 5px 5px blue;
-    transform: matrix(1, 0, -.4, 1, 0, 0);
+    transform: matrix(1, 0, -.4, 1, -50, 0);
+    list-style: none;
+    justify-content: right;
 }
 a:hover {
     color: red;
@@ -28,17 +43,7 @@ a:hover {
 a:active {
     color: blue;
 }
-li, a {
-    justify-content: right;
-    list-style: none;
-}
 a {
     text-decoration: none;
-    color:aqua;
-}
-.container {
-    display: flex;
-    gap: 280px;
-    justify-content: center;
-    margin-top: 200px;
+    color:purple;
 }
