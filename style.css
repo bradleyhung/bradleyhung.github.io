@@ -5,21 +5,20 @@ h1 {
 }
 h2 {
     font-size: 2.5em;
-    color: lightcoral;
+    color: gray;
 }
 body {
-    background: linear-gradient(purple, aqua) no-repeat;
+    background: no-repeat;
     background-attachment: fixed;
 }
 .container {
     display: flex;
-    gap: 2%;
+    gap: 8%;
     justify-content: center;
     margin-top: 20vh;
 }
 .text-container {
     text-align: center;
-    text-shadow: 0.5em 0.5em 0.5em red;
 }
 a:hover {
     color: red;
@@ -33,7 +32,7 @@ li, a {
 }
 a {
     text-decoration: none;
-    color:aqua;
+    color:black;
 }
 .nav-items {
     display: flex;
@@ -41,7 +40,6 @@ a {
     margin-right: 2vw;
     gap: 2vw;
     font-size: 2em; 
-    text-shadow: 0.5em 0.5em 0.5em blue; 
 }
 @media screen and (max-width: 600px) {
     .container {
