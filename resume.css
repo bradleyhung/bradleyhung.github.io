@@ -23,7 +23,7 @@ a {
 h1, h2 {
     text-align: center;
 }
-.Education, .Relevant, .Relevant-Body, .Supporting, .Supporting-body, .Supporting-Second, .Supporting-Second-Body, .Personal {
+.Education, .Relevant, .Relevant-Body, .Supporting, .Supporting-body, .Supporting-Second, .Supporting-Second-Body, .Personal, .PetPals, .PhonebookApplication {
     display: flex;
     justify-content: space-between;
 }
