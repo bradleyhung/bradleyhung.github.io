@@ -23,7 +23,12 @@ a {
 h1, h2 {
     text-align: center;
 }
-.Education, .Relevant, .Relevant-Body, .Supporting, .Supporting-body, .Supporting-Second, .Supporting-Second-Body, .Personal, .PetPals, .ScholarshipFinder{
+.Education, .Relevant, .Relevant-Body, .Supporting, .Supporting-body, .Supporting-Second, .Supporting-Second-Body, .Personal, .PetPals{
+    display: flex;
+    justify-content: space-between;
+    gap: 1em;
+}
+.ScholarshipFinder{
     display: flex;
     justify-content: space-between;
     gap: 1em;
